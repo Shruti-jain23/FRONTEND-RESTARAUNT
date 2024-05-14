@@ -1,0 +1,56 @@
+/*navigation*/
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding:0px 9px;
+    padding-bottom: 10px;
+    
+}
+/*home*/
+#home{
+    height:467px;
+    padding:3px 25px;
+  
+
+}
+#home::before{
+    height:483px;
+
+}
+#home p{
+    font-size: 15px;
+}
+/*services*/
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+
+}
+/*clients section*/
+#clients{
+    flex-wrap: wrap;
+
+}
+#clients img{
+    width:66px;
+    padding:6px;
+    height:auto;
+
+}
+/*contact us section*/
+#contact-box form{
+    width:80%;
+}
+/*footer*/
+/*utility classes*/
+.h-primary{
+    font-size: 50px;
+}
+.btn{
+    font-size: 19px;
+    padding:4px 8px;
+}
